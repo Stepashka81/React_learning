@@ -4,12 +4,12 @@ class Article extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isOpen: true
+      isOpen: false
     }
   }
 
   render() {
-    const { article } = this.props
+    const { article } = this.props  //article это наш массив переданый из ArticleList
     console.log(this.props);
     const body = this.state.isOpen && <section>{article.text}</section>
     return (
@@ -21,6 +21,7 @@ class Article extends React.Component {
        </h2>
         {body}
         <h3>creation date:{(new Date(article.date)).toDateString()}</h3>
+     
       </div>
     )
   }

@@ -1,6 +1,6 @@
 
 
-export default [
+const articlesArray= [
     {
         "id": "0000001",
         "date": "2023-02-09T15:03:23.000Z",
@@ -72,7 +72,7 @@ export default [
     {
         "id": "0000003",
         "date": "2023-02-14T19:01:11.000Z",
-        "title": "Some title 1",
+        "title": "Some title 3",
         "text": "Sed pulvinar proin gravida hendrerit. Malesuada fames ac turpis egestas. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Magna fringilla urna porttitor rhoncus dolor purus. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Sit amet purus gravida quis. Suspendisse sed nisi lacus sed viverra tellus in hac habitasse. In vitae turpis massa sed elementum tempus egestas.",
         "comments": [
             {
@@ -104,20 +104,8 @@ export default [
         ]
     }
 
-
-
 ]
-
-
-
-
-
-
-
-
-
-
-
+export default articlesArray
 
 
 /*
@@ -229,10 +217,6 @@ export default         [
                 ]
             }
         ];
-
-
-
-      
       
         let biographyData = [
             { id: 1, information: "Event1" },
@@ -265,5 +249,3 @@ export default         [
                 information: "Entered to the univesity"
             }
         ]*/
-
-
